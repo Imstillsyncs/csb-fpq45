@@ -4,7 +4,6 @@ import {
   Sprite,
   Trigger,
   Costume,
-  Color,
   Sound
 } from "https://unpkg.com/leopard@^1/dist/index.esm.js";
 
@@ -31,7 +30,7 @@ export default class PlayButton extends Sprite {
     this.visible = true;
   }
 
-  *whenbackdropswitchesto() {
+  *whenbackdropswitchestoGame() {
     this.visible = false;
   }
 
@@ -40,11 +39,11 @@ export default class PlayButton extends Sprite {
     this.stage.costume = "Game";
   }
 
-  *whenbackdropswitchesto2() {
+  *whenbackdropswitchestoinstructionspage2() {
     this.visible = false;
   }
 
-  *whenbackdropswitchesto3() {
+  *whenbackdropswitchestoMenu() {
     this.visible = true;
   }
 }

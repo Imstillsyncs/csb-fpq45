@@ -4,7 +4,6 @@ import {
   Stage as StageBase,
   Trigger,
   Costume,
-  Color,
   Sound
 } from "https://unpkg.com/leopard@^1/dist/index.esm.js";
 
